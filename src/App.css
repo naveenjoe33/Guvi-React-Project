@@ -1,0 +1,134 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+body, html {
+  height: 100%;
+}
+body {
+  
+  background-image: linear-gradient(
+    to right top,
+    #d79337,
+    #f8703f,
+    #ff3a65,
+    #ff00a1,
+    #e212eb
+  ) ;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  padding: 24px;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+
+  height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.user-container {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+
+  gap: 15px;
+  transition: 0.2s all;
+}
+.butt{
+  width: 100%;
+}
+
+.user-container:hover {
+  color: crimson;
+  transform: scale(1.02);
+}
+
+.user-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.user-name {
+  margin-top: 8px;
+  font-family: "Parisienne", cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  margin: 3px;
+  width: 100px;
+  height: 30px;
+  background-color: #008cba;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 2px blue;
+}
+
+label {
+  margin: 2px;
+}
+
+input {
+  margin: 2px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 0;
+  background-color: #0c0404af;
+  flex-wrap: wrap;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 20px 40px;
+  color: aliceblue;
+  align: center;
+  text-decoration: none;
+}
+
+li a:hover:not(.contactus) {
+  background-color: black;
+}
+
+.contactus {
+  background-color: cornflowerblue;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
